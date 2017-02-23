@@ -1,0 +1,135 @@
+
+nav li{
+	display: inline;
+}
+nav{
+
+	background-color: #cfc;
+}
+ul{
+	margin-left: -35px;
+	font-size: 20px;
+	margin-right: 10px;
+}
+li{
+	word-spacing: 10%;
+}
+#conjunto{
+	background: rgba(11,110,0,0.3);
+	}
+#logo{
+	 width: 10%
+}
+#texto{
+	margin-top: -100px;
+	float: left;
+	margin-right: 600px;
+}
+#text{
+	color: #fff;
+}
+#menuprincipal{
+	height: 40px;
+	font-weight: bold;
+	line-height: 40px;
+	margin-bottom: 20px;
+	border-radius: 10px 0px 10px 0px;
+	box-shadow: 5px 10px 10px #888;
+	font-size: 25px;
+	text-align: center;
+	float: left;
+	margin-left:-20px;
+	font-family: arial;
+}
+
+#A{
+	float: left;
+
+}
+#B{
+	float: right;
+	font-size: 16px;
+	font-style: italic;
+	color: #fff;
+	margin-top:20px;
+	margin-bottom: -1400px;
+	padding-bottom: 100px;
+
+
+}
+section{
+	margin-top: -100px;
+	background-color: white;
+
+}
+#new_login{
+	float: right;
+	background-color: rgba(212,144,39,0.7);
+	padding: 10px 0px 0 0;
+
+}
+#old_login{
+	float:right;
+	background-color: rgba(212,144,39,0.7);
+		padding: 10px 0 20px 10px;
+
+}
+#experiencia{
+	display: inline;
+
+}
+#poda1{
+	margin-top:  50px;
+	padding-bottom:   000px;
+	color: #fff;
+}
+#poda2{
+		margin-top: 50px; 
+	padding-left:   0px;
+	padding-bottom:  000px;
+	color: #fff;
+	border: 1px white;
+}
+#poda3{
+		margin-top: 48px; 
+	padding-left:   0px;
+	padding-bottom:  0px;
+	color: #fff;
+}
+#direccion
+input{
+	
+}
+#frases{
+	float: right;
+	width: 200px;
+
+	padding-right: 20px;
+	height: 300px;
+	border-bottom: 100px;
+	box-sizing: border-box; /* MUY IMPORTANTE ignora el tamaño del border y del padding al incluirlo dentro de la caja*/
+	margin-bottom: 10px;
+	}
+h6{
+
+}
+#piedepagina{
+	color: #fff;
+	display: inline;
+}
+
+.class="caption"{
+	background: #b9924e;
+
+}
+#old_login input[type="submit"]{
+ color: #b9924e;
+
+}
+#direcciones{
+	display: inline;
+}
+
+div [class="thumbnail"]{
+	background-color: rgba(212,144,39,0.7);
+}
