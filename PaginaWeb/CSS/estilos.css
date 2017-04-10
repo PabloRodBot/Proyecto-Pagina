@@ -63,15 +63,26 @@ section{
 
 }
 #new_login{
+
 	float: right;
 	background-color: rgba(212,144,39,0.7);
-	padding: 10px 0px 0 0;
+	padding: 10px 0px 10px 10px;
+	margin-right: -5px;
+
 
 }
+#labels{
+	float:left;
+}
+#inputs{
+	float:right;
+}
+
 #old_login{
+	border-right: 2px solid;
 	float:right;
 	background-color: rgba(212,144,39,0.7);
-		padding: 10px 0 20px 10px;
+		padding: 10px 0 30px 10px;
 
 }
 #experiencia{

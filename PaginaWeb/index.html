@@ -15,7 +15,7 @@
 	<style>
 
 		body{
-			background-image:url(http://www.todopaisajes.com/1920x1080/casa-en-la-selva.jpg);
+			background-image:url(img/bosque.jpg);
 		}
 
 	</style>
@@ -51,28 +51,37 @@
 								<!---CUADRO DE SECCION -->
 						<div id="seccion">
 								<section>
+									<div>
 									<div id= "new_login">
 
 											<form action="salida.php" method="POST">
-											
+											  <div id="labels">
 											
 												<label for="nombre"> Nombre: </label>
-											<input type="text" id="nombre" name="nombre" placeholder="Nombre (Obligatorio)" required="required" />
 											<br/>
 										 <label for="apellidos">Apellidos: </label>
-											<input  type="text" id="apellidos" name="apellidos" placeholder="Apellidos"  />
 											<br/>
 										 <label for="contrasena">Contraseña: </label>
-											<input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required="required" />
+											
 											<br/>
 										<label for="contraseña"> Repita Contraseña: </label>
+											<br/>
+															<!-- tAL VEZ SEA INTRODUCIDO AL FINAL DE PAGINA -->
+										<input type="submit" value="Entrar" class="btn btn-default btn-lg active"/>
+										
+											  </div>
+											  <div id="inputs">
+											<input type="text" id="nombre" name="nombre" placeholder="Nombre (Obligatorio)" required="required" />
+											<br/>
+											<input  type="text" id="apellidos" name="apellidos" placeholder="Apellidos"  />
+											<br/>
+											<input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required="required" />
+											<br/>
 											<input type="password" id="rep_contraseña" name="rep_contraseña" placeholder="Contraseña" required="required">
 											<br/>
-
-
-												<!-- tAL VEZ SEA INTRODUCIDO AL FINAL DE PAGINA -->
-										<input type="submit" value="Entrar" class="btn btn-default btn-lg active"/>
-										<input type="reset" value="Restaurar" class="btn btn-warning"/>
+											<input type="reset" value="Restaurar" class="btn btn-warning btn-lg"/>
+											  </div>
+										
 									</div>
 
 									<div id= "old_login"
@@ -92,8 +101,8 @@
 												<!-- tAL VEZ SEA INTRODUCIDO AL FINAL DE PAGINA -->
 										<input type="submit" value="Entrar" class="btn btn-default btn-lg active"/>
 									</div>
-								</div>
 							</section>
+							</div>
 							</form>
 					<div id="texto">
 									<p id="text">
